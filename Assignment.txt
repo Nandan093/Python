@@ -1,0 +1,54 @@
+1. Difference between python 2 and python 3?
+ 
+   * Python 2:
+     1.print function, print " Hello"
+     2.When two integers are divided, you always provide integer value.
+     3.To store Unicode string value, you require to define them with "u".
+     4.In Python 2, the xrange() is used for iterations.
+     5.The value of the global variable will change while using it inside for-loop.
+
+   * Python 3:
+     1.print function, print (" Hello")
+     2.Whenever two integers are divided, you get a float value
+     3.In Python 3, default storing of strings is Unicode.
+     4.The new Range() function introduced to perform iterations.
+     5.The value of global variables never changes.
+
+2. Difference between compiler and interpreter ?
+
+   * Compiler:
+     A compiler is a computer program that transforms code written in a high-level programming language
+     into the machine code. It is a program which translates the human-readable code to a language a computer
+     processor understands (binary 1 and 0 bits). The computer processes the machine code to perform the corresponding
+     tasks.
+     A compiler should comply with the syntax rule of that programming language in which it is written. However, the
+     compiler is only a program and cannot fix errors found in that program. So, if you make a mistake, you need to make
+     changes in the syntax of your program. Otherwise, it will not compile.
+
+   
+  
+   *Interpreter:
+     An interpreter is a computer program, which coverts each high-level program statement into the machine code. 
+     This includes source code, pre-compiled code, and scripts. Both compiler and interpreters do the same job which 
+     is converting higher level programming language to machine code. However, a compiler will convert the code into 
+     machine code (create an exe) before program run. Interpreters convert code into machine code when the program is run.
+
+    
+3. What is escape sequence with an example ?
+   
+    Escape sequences thus work in two ways: they may apply a special function to a character that doesn't have one by
+    default as in the case of (\n) or they may disable a special function from a character that has one by default (\').
+
+    E.g., \n - new line
+          \t - tab
+          \" - to print "
+
+
+4. Good features of python programming language?
+  
+    1) Readable and Maintainable Code
+    2) Multiple Programming Paradigms
+    3) Compatible with Major Platforms and Systems
+    4) Robust Standard Library
+    5) Many Open Source Frameworks and Tools
+    6) Simplify Complex Software Development
